@@ -19,7 +19,10 @@ class _RootScreenState extends State<RootScreen> {
       bottomNavigationBar: BottomNavigationBar(
         onTap: (int index) => widget.statefulNavigationShell.goBranch(index),
         items: [
-          BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), label: ''),
+          BottomNavigationBarItem(
+            icon: Icon(CupertinoIcons.home), 
+            label: ''
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.notification_add_outlined),
             label: '',
