@@ -15,7 +15,7 @@ class _RootScreenState extends State<RootScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: widget.statefulNavigationShell,
+      body: SafeArea(child: widget.statefulNavigationShell),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (int index) => widget.statefulNavigationShell.goBranch(index),
         items: [

@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:matule/home_screen.dart';
 import 'package:matule/notification_screen.dart';
+import 'package:matule/profile_screen.dart';
 import 'package:matule/root_screen.dart';
 
 class RouterConfigGo {
@@ -33,7 +34,7 @@ class RouterConfigGo {
             routes: [
               GoRoute(
                 path: '/profile',
-                builder: (context, state) => HomeScreen(),
+                builder: (context, state) => ProfileScreen(),
                 name: 'profile',
               ),
             ],
