@@ -4,6 +4,12 @@ import 'package:sqflite/sqflite.dart';
 class UserRepository {
   late Database db;
 
+  UserRepository._();
+
+  static final UserRepository _instance = UserRepository._();
+
+  factory UserRepository() => _instance;
+
   Future<void> open(String path) async {
     db = await openDatabase(
       path,
@@ -17,12 +23,8 @@ class UserRepository {
     return user;
   } 
 
-  Future<User?> getAllUsers(int id) async {
-    List<Map> maps = await db.query('users',
-        where: '*',);
-    if (maps.length > 0) {
-      return User.fromMap(maps.first as Map<String, dynamic>);
-    }
-    return null;
+  Future<List<Map<String, dynamic>>> getAllUsers(int id) async {
+    List<Map> maps = await db.query('users');
+        return maps as List<Map<String, dynamic>>;
   }
 }
