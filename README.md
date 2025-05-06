@@ -9,6 +9,8 @@ version: 1.0.0+1
 Минимальная версия ОС, поддерживаемая приложением: Android - 11.0, iOS - 14.0.
 
 ```
+---
+
 
 **To long story short:**
 ```
@@ -23,6 +25,8 @@ flutter run
 ```
 flutter clean 
 ```
+---
+
 
 **Build android apk**
 
@@ -51,8 +55,19 @@ cd ./android
 ```
 ~/build/app/outputs/apk/release
 ```
+---
+
+**Assets at pubspec.yaml**
+
+```
+  assets:
+    - assets/images/
+    - assets/localization/
+```
+---
 
 **Dependencies at pubspec.yaml**
+
 ```
 dependencies:
   flutter:
@@ -67,6 +82,7 @@ dependencies:
   easy_localization: ^3.0.7+1
   google_fonts: ^6.2.1
 ```
+---
 
 **Readme.md structure**
 ```
@@ -82,6 +98,7 @@ dependencies:
 ---
 Documentation (Документация - если нужна)
 ```
+---
 
 **Folder stucture**
 ```
@@ -127,3 +144,31 @@ Documentation (Документация - если нужна)
 │
 └── main.dart
 ```
+---
+
+
+**Documentation**
+##### Presentation
+* Real Life Clean Architecture http://www.slideshare.net/mattiabattiston/real-life-clean-architecture-61242830
+
+##### Blogs & Articles
+* The Clean Architecture https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
+* Screaming Architecture http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+* NODB https://blog.8thlight.com/uncle-bob/2012/05/15/NODB.html
+* Hexagonal Architecture http://alistair.cockburn.us/Hexagonal+architecture
+
+##### Videos & Presentations
+* Clean Coders ep. 7: Architecture, Use Cases, and High Level Design https://cleancoders.com/episode/clean-code-episode-7/show
+* Robert C. Martin - Clean Architecture https://vimeo.com/43612849
+* Robert C. Martin - Clean Architecture and Design https://www.youtube.com/watch?v=Nsjsiz2A9mg
+
+
+<!--
+## Contacts
+For any question or feedback (really appreciated!) feel free to contact me:
+* Email: mattia _(dot)_ battiston _(at)_ gmail.com
+* Twitter: [@BattistonMattia](https://twitter.com/BattistonMattia)
+* Linkedin: [Mattia Battiston](https://uk.linkedin.com/in/mattiabattiston)
+-->
+---
+Copyright (c) 2025 Melowe
