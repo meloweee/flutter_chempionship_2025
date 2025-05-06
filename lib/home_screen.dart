@@ -40,7 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
+                
                 Text(context.tr('hello')),
+
                 IconButton(onPressed: () {}, icon: Icon(CupertinoIcons.bag)),
               ],
             ),

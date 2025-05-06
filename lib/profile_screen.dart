@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matule/core/brand_colors.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -11,7 +12,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueGrey,
+      color: BrandColors.accent,
     );
   }
 }

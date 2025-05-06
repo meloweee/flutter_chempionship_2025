@@ -8,7 +8,9 @@ import 'package:matule/router.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
+
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
+
   runApp(
     EasyLocalization(
       supportedLocales: [Locale('ru'), Locale('en')],
@@ -39,6 +41,7 @@ class App extends StatelessWidget {
       //----------------------------------------------------------
       theme: ThemeData(
           textTheme: GoogleFonts.ralewayTextTheme(),
+          
           scaffoldBackgroundColor: BrandColors.background,
           platform: TargetPlatform.iOS,
           primaryColor: BrandColors.accent,
