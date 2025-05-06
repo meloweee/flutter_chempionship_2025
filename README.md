@@ -1,12 +1,14 @@
-# Flutter_chempionship_2025
-Example Flutter android WS_2025
-
--
-<img src="./assets/preview.webp">
+# Flutter_chempionship_2025_template
 
 **Description**
+
+```
+App name: Matule
+Dart sdk: ^3.7.2 > 4.0.0
+version: 1.0.0+1
 Минимальная версия ОС, поддерживаемая приложением: Android - 11.0, iOS - 14.0.
 
+```
 
 **To long story short:**
 ```
@@ -45,9 +47,9 @@ cd ./android
 ./gradlew assembleProfile 
 ```
 
-*apk located at:* ~/build
+*apk located at* 
 ```
-
+~/build/app/outputs/apk/release
 ```
 
 **Dependencies at pubspec.yaml**
@@ -64,6 +66,21 @@ dependencies:
 
   easy_localization: ^3.0.7+1
   google_fonts: ^6.2.1
+```
+
+**Readme.md structure**
+```
+Заголовок
+---
+Описание
+Превью - картинка 16/9
+---
+Инструкции по запуску
+Список интеграций
+---
+Скриншоты
+---
+Documentation (Документация - если нужна)
 ```
 
 **Folder stucture**
