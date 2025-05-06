@@ -1,5 +1,6 @@
-import 'package:matule/layers/domain/user.dart';
+import 'package:matule/layers/domain/entity/user.dart';
 import 'package:sqflite/sqflite.dart';
+
 
 class UserRepository {
   late Database db;

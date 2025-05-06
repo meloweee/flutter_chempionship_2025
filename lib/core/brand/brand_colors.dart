@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/// Brand Colors
+/// Date: 06.05.2025
+/// Author: M9M9Ra
+/// ----------------------------------------------
 class BrandColors {
 
   static Color get red => Color.fromRGBO(248, 114, 101, 1);

@@ -2,6 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+
+/// Root Widget in App
+/// 06.05.2025
+/// M9M9Ra
+/// ----------------------------------------------
 // ignore: must_be_immutable
 class RootScreen extends StatefulWidget {
   RootScreen({super.key, required this.statefulNavigationShell});

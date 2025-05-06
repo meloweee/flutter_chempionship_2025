@@ -1,11 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:matule/core/brand_colors.dart';
-import 'package:matule/layers/domain/user.dart';
-import 'package:matule/layers/domain/user_repository.dart';
+import 'package:matule/core/brand/brand_colors.dart';
+import 'package:matule/layers/domain/entity/user.dart';
+import 'package:matule/layers/domain/repository/user_repository.dart';
 import 'package:sqflite/sqflite.dart';
 
+/// Home Screen
+/// 06.05.2025
+/// M9M9Ra
+/// ----------------------------------------------
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 

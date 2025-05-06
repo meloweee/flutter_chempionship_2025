@@ -2,8 +2,14 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:matule/core/brand_colors.dart';
-import 'package:matule/router.dart';
+import 'package:matule/core/brand/brand_colors.dart';
+import 'package:matule/core/router/router.dart';
+
+
+/// App - main
+/// Date: 06.05.2025
+/// Author: M9M9Ra
+/// ----------------------------------------------
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
